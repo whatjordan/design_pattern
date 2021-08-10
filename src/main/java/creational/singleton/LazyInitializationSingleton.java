@@ -1,4 +1,4 @@
-package singleton;
+package creational.singleton;
 
 /**
  * Double checked locking without volatile keyword might be broken in critical situation.

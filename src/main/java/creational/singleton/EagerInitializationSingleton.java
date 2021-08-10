@@ -1,4 +1,4 @@
-package singleton;
+package creational.singleton;
 
 /**
  * Thread-safe, but may lead to resource wastage.

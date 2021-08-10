@@ -3,4 +3,4 @@
  *
  * @see <a href="https://www.geeksforgeeks.org/java-singleton-design-pattern-practices-examples/">link</>
  */
-package singleton;
+package creational.singleton;

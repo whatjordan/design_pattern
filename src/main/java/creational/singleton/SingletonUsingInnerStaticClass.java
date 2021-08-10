@@ -1,7 +1,8 @@
-package singleton;
+package creational.singleton;
 
 /**
- *  Thread-safe, lazy initialization (Inner class is created only when getInstance method is called.)
+ *  Initialization Demand Holder
+ *  Thread-safe, lazy initialization (Inner class is loaded to JVM only when getInstance method is called.)
  */
 public class SingletonUsingInnerStaticClass {
     private SingletonUsingInnerStaticClass() {
@@ -11,7 +12,7 @@ public class SingletonUsingInnerStaticClass {
         private static final SingletonUsingInnerStaticClass INSTANCE = new SingletonUsingInnerStaticClass();
     }
 
-    private static SingletonUsingInnerStaticClass getInstance(){
+    public static SingletonUsingInnerStaticClass getInstance(){
         return InnerStaticClass.INSTANCE;
     }
 }
