@@ -28,4 +28,13 @@ public class Phone {
     public void setOs(String os) {
         this.os = os;
     }
+
+    @Override
+    public String toString() {
+        return "Phone{" +
+                "camera='" + camera + '\'' +
+                ", chip='" + chip + '\'' +
+                ", os='" + os + '\'' +
+                '}';
+    }
 }

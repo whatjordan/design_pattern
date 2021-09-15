@@ -26,7 +26,7 @@ public class DeepCopyReportPrototype implements ReportPrototype, Serializable {
 
     //Deep copy
     @Override
-    protected DeepCopyReportPrototype clone() throws CloneNotSupportedException {
+    public DeepCopyReportPrototype clone() throws CloneNotSupportedException {
         try {
             ByteArrayOutputStream bos = new ByteArrayOutputStream();
             ObjectOutputStream oos = new ObjectOutputStream(bos);

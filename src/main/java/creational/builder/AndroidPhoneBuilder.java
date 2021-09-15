@@ -1,6 +1,6 @@
 package creational.builder;
 
-public class AndroidPhoneBuilder extends PhoneBuilder{
+public class AndroidPhoneBuilder extends PhoneBuilder {
 
     @Override
     PhoneBuilder buildCamera() {
@@ -16,7 +16,7 @@ public class AndroidPhoneBuilder extends PhoneBuilder{
 
     @Override
     PhoneBuilder buildOs() {
-        phone.setChip("android");
+        phone.setOs("android");
         return this;
     }
 }

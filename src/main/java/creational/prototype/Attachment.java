@@ -1,6 +1,8 @@
 package creational.prototype;
 
-public class Attachment {
+import java.io.Serializable;
+
+public class Attachment implements Serializable {
     private String content;
 
     public String getContent() {

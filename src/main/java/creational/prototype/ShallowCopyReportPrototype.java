@@ -23,7 +23,7 @@ public class ShallowCopyReportPrototype implements ReportPrototype {
 
     //Shallow copy
     @Override
-    protected Object clone() throws CloneNotSupportedException {
-        return super.clone();
+    public ShallowCopyReportPrototype clone() throws CloneNotSupportedException {
+        return (ShallowCopyReportPrototype) super.clone();
     }
 }
